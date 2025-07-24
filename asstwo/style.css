@@ -1,11 +1,6 @@
 *{
     background-color: rgb(208, 248, 227);
 }
-body{
-    max-width:1140px;  
-    margin: 0 auto;
-}
-
 .noto-serif{
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -15,6 +10,8 @@ body{
     "wdth" 100;
 }
 header{
+     max-width:1140px;  
+    margin: 0 auto;
     margin-top: 30px;
 }
 .nav-bar{
@@ -94,6 +91,10 @@ header{
     color:#E95A08 ;
 }
 /* our plant section-one */
+.section-one{
+     max-width:1140px;  
+    margin: 0 auto;
+}
 .section-one h2{
     font-weight: bold;
     font-size: 50px;
@@ -115,7 +116,6 @@ header{
 .card{
     border:2px solid #E95A08;
     max-width:270px;
-    height:;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -152,3 +152,196 @@ button{
     gap: 30px 20px;
     
 }
+/* section two */
+.section-two{
+     max-width:1140px;  
+    margin: 0 auto;
+}
+
+.list-3 ul li{
+     font-size: 22px;
+     color:rgba(0, 0, 0, 0.5);
+     text-align: justify;
+}
+.section-two img{
+    max-width:440px;
+    height:500px;
+}
+.sect-2-flex{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    /* justify-content:space-between; */
+    /* align-items: center; */
+    gap:60px;
+    margin:220px auto 130px auto;
+    
+  
+}
+.list-3{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+}
+ul{
+    line-height:40px;
+}
+ul h1{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Noto Serif", serif;
+}
+/* section three */
+.section-three{
+    text-align: center;
+    margin: 0 auto 120px auto;
+}
+.section-three h1{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Noto Serif", serif;
+}
+.section-three p{
+    font-size: 22px;
+    color:rgba(0, 0, 0, 0.5);
+    width: 888px;
+    margin: 0 auto;
+}
+/* section four */
+/* .section-four{
+    margin: 0 auto;
+}
+.two-by-one{
+    display: grid;
+    
+    grid-template-columns:1fr 2fr;
+
+}
+.two-pic-align{
+    
+    
+}
+.one-pic-align{
+    border: 2px solid red;
+   
+    background-image: url('../assets/deal-zabo.png');
+}
+
+.two-pic-1stson{
+    border: 2px solid red;
+    background-image: url('../assets/deal-ana.png');
+    height: 200px;
+    width: 370px;
+}
+.two-pic-1stsons{
+    border: 2px solid red;
+    background-image: url('../assets/deal-bloom.png');
+    height: 200px;
+    width: 370px;
+} */
+ .section-four{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows:2fr 1fr;
+   gap:10px;
+   border-radius: 8px;
+    max-width:1140px;  
+    margin: 0 auto;
+ }
+ .item{
+    border: 2px solid red;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    color: #E95A08;
+ }
+ .ttt{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .itemst{
+    width: 367px;
+    height: 200px;
+ }
+ .two-pic-1stson{
+    background-image: url('../assets/deal-bloom.png');
+ }
+ .two-pic-1stsons{
+    background-image: url('../assets/deal-ana.png');
+ }
+ .two-pic-1stsonst{
+    background-image: url('../assets/deal-zabo.png');
+ }
+ .two-pic-1stson h4{
+    background:none ;
+ }
+ /* section five */
+ .section-five{
+    height: 533px;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/news-letter-bg.png');
+ }
+ .section-five h1{
+     font-weight: bold;
+    font-size: 50px;
+    font-family: "Noto Serif", serif;
+    color: white;
+ }
+ input{
+     width:644px;
+    height: 50px;
+    padding:26px 50px;
+    color: rgb(13, 13, 13);
+    background-color: white;
+    
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .last{
+    display: flex;
+ }
+ .last-btn{
+    width:186px ;
+    height: 50px;
+    font-weight: 600;
+ }
+ /* footer */
+  footer{
+    padding:50px 0 0 0 ;
+  }
+  .foot-div-child1 img{
+   width: 135px;
+   height: 80px;
+  }
+  .foot-div-child1 p{
+    width:360px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+  }
+ .footer-div-parent{
+    display: flex;
+    justify-content:space-evenly;
+    
+ }
+ .foot-div-child2,.list1{
+    list-style: none;
+    color: #6B7280;
+ }
+ .foot-div-child3,.list2{
+     list-style: none;
+     color: #6B7280;
+ }
+ .foot-div-child4 img{
+    padding-left: 10px;
+ }
