@@ -390,7 +390,40 @@ body{
      display: flex;
      gap: 24px;
    }
- @media ( max-width:576px){
+
+
+
+     .parent-footer-div3 li:hover{
+          background-color: darkorange;
+          color: #000000;
+          border-radius:5px;
+          box-shadow:0 0 3px 0.5px rgb(2, 2, 2) !important;
+    
+        }
+        .parent-footer-div2 li:hover{
+          background-color: #0ee0eb !important;
+          color: red;
+          border-radius:5px;
+          box-shadow:0 0 3px 0.5px rgb(255, 6, 6) !important;
+    
+        }
+        .subscribe:hover{
+          background-color: #0ee0eb !important;
+          color: red;
+          
+        }
+        .buy-btn:hover{
+          background-color: cyan !important;
+          color: red;
+        }
+
+
+
+     
+ @media screen and (max-width: 576px){
+       body{
+        background-color: #54ef9a;
+       }
        .card-container{
         grid-template-columns: repeat(2,1fr);
        }
@@ -412,15 +445,19 @@ body{
        }
         .twobye-one-container{
           flex-direction: column;
+          height: auto;
          
         }
-        .first-childooo{
+        .first-childooo,.one-pic-1stsonst{
          width: 100%;
+         flex-direction: column;
+
         
    
         }
-        .one-pic-1stsonst{
-          width: 100%;
+        .one-pic-1stsonst img{
+          width: 100vw;
+          height: 100vh;
           
         }
         .parent-footer-div{
