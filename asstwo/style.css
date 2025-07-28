@@ -6,6 +6,7 @@ body{
    max-width: 1140px;
    margin: 0 auto;
    font-family: "Noto Serif", serif;
+   background-color: #bcfed0;
 }
 
 .noto-serif-50 {
@@ -27,6 +28,10 @@ body{
 }
 .flex-s{
   display: flex;
+}
+p:hover{
+  text-shadow: 0.1px 0.1px 0.2px #ff0303;
+  color: #0eeb0e;
 }
  /* navbar00000000000000000000000000000000 */
  .navbar{
@@ -68,6 +73,23 @@ body{
  }
  .shop{
   color: #8987A1;
+ }
+ .cart-li:hover{
+  background-color: #ef7854;
+  box-shadow: 1px 1px 5px 3px rgb(0, 252, 92);
+  border-radius: 5px;
+ }
+ .home:hover{
+  background-color: #ef7854;
+  box-shadow: 1px 1px 5px 3px rgb(0, 252, 92);
+  border-radius: 5px;
+ }
+ .shop:hover{
+  background-color: #00dcd5;
+  box-shadow: 1px 1px 5px 3px rgb(255, 1, 1);
+  border-radius: 5px;
+  color: #000000;
+
  }
  /* bannerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
  .banner-container{
@@ -421,9 +443,7 @@ body{
 
      
  @media screen and (max-width: 576px){
-       body{
-        background-color: #54ef9a;
-       }
+    
        .card-container{
         grid-template-columns: repeat(2,1fr);
        }
@@ -443,27 +463,25 @@ body{
        .badged-left,.badged-right{
         width: 100%;
        }
-        .twobye-one-container{
-          flex-direction: column;
-          height: auto;
-         
-        }
-        .first-childooo,.one-pic-1stsonst{
+       
+        /* .first-childooo,.one-pic-1stsonst{
          width: 100%;
-         flex-direction: column;
+         flex-direction: column; */
 
         
    
-        }
+        /* }
         .one-pic-1stsonst img{
           width: 100vw;
           height: 100vh;
           
-        }
+        } */
         .parent-footer-div{
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          text-align: center;
+          gap: 50px;
         }
         .navbar{
           margin-bottom:-50px;
@@ -497,5 +515,40 @@ body{
         .banner-container{
           margin-bottom:30px;
         }
+        .cart-li:hover{
+              background-color: #ef7854;
+              box-shadow: 1px 1px 10px 1px bisque;
+              border-radius: 5px;
+        }
 
+    .twobye-one-container{
+     flex-direction: column;
+     height:auto;
+         
+    }
+   .first-childooo{
+    /* border:20px solid rgb(47, 0, 255); */
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    height:400px;
+   }
+   .two-pic-1stson{
+    flex-direction:column ;
+    height:200px;
+
+   }
+   .two-pic-1stsons{
+    flex-direction:column ; 
+    height:200px;
+   }
+   .one-pic-1stsonst{
+    width:100%;
+    flex-direction: column;
+    height:200px
+   }
+  .bloomm{
+    font-size:30px;
+  }
  }
