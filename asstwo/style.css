@@ -29,10 +29,7 @@ body{
 .flex-s{
   display: flex;
 }
-p:hover{
-  text-shadow: 0.1px 0.1px 0.2px #ff0303;
-  color: #0eeb0e;
-}
+
  /* navbar00000000000000000000000000000000 */
  .navbar{
   display: flex;
@@ -85,7 +82,7 @@ p:hover{
   border-radius: 5px;
  }
  .shop:hover{
-  background-color: #00dcd5;
+  background-color: #5bf57a;
   box-shadow: 1px 1px 5px 3px rgb(255, 1, 1);
   border-radius: 5px;
   color: #000000;
@@ -423,7 +420,7 @@ p:hover{
     
         }
         .parent-footer-div2 li:hover{
-          background-color: #0ee0eb !important;
+          background-color: #3ff78c !important;
           color: red;
           border-radius:5px;
           box-shadow:0 0 3px 0.5px rgb(255, 6, 6) !important;
@@ -487,14 +484,14 @@ p:hover{
           margin-bottom:-50px;
         }
         .parent-footer-div3 li:hover{
-          background-color: darkorange;
+          /* background-color: darkorange; */
           color: #000000;
           border-radius:5px;
           box-shadow:0 0 3px 0.5px rgb(2, 2, 2);
     
         }
         .parent-footer-div2 li:hover{
-          background-color: #0ee0eb;
+          /* background-color: #05ff61; */
           color: red;
           border-radius:5px;
           box-shadow:0 0 3px 0.5px rgb(255, 6, 6);
